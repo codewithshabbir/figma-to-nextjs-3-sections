@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header className="bg-[#043873] flex justify-between items-center px-6 lg:px-24 py-4">
       <div className="w-1/2">
-        <Image src="/public/logo.svg" alt="Logo" />
+        <Image src="/logo.svg" alt="Logo" width={150} height={100}/>
       </div>
       <div className="flex lg:justify-between items-center w-1/2 justify-end">
         <div className="hidden lg:flex items-center">

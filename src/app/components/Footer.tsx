@@ -1,5 +1,4 @@
 import React from "react";
-import Logo from "/public/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-20 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div className="space-y-4">
           <div>
-            <Image src={Logo} alt="Logo" />
+            <Image src="/public/logo.svg" alt="Logo" />
           </div>
           <p className="text-sm">
             Whitespace was created for the new ways we live and work. We make a

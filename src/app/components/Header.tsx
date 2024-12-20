@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from "react";
-import Logo from "/public/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,7 +9,7 @@ const Header = () => {
   return (
     <header className="bg-[#043873] flex justify-between items-center px-6 lg:px-24 py-4">
       <div className="w-1/2">
-        <Image src={Logo} alt="Logo" />
+        <Image src="/public/logo.svg" alt="Logo" />
       </div>
       <div className="flex lg:justify-between items-center w-1/2 justify-end">
         <div className="hidden lg:flex items-center">
